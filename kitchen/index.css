@@ -1,0 +1,273 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    color: #fff;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.firstWin {
+    height: 1050px;
+    background-image: url(IMG/bathroom_vanity_x800\ 1.jpg);
+    background-size: cover;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.firstWin1 {
+    font-size: 6rem;
+}
+.firstWin11 {
+    font-size: 3rem;
+}
+.firstWin2 {
+    font-size: 4rem;
+}
+.secondWin {
+    height: 42rem;
+}
+.secondWin1 {
+    height: 100px;
+    text-align: center;
+    font-size: 3rem;
+    background-color: #00AAFF ;
+    line-height: 100px;
+}
+.secondWin2Slider {
+    padding-left: 5rem ;
+    padding-right: 5rem ;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    position: relative;
+    overflow: hidden;
+}
+.secondWin21Slides {
+    width: 54rem;
+    height: 31.25rem;
+    border-radius: 40px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    transition: transform 0.5s ease;
+}
+.secondWin22 {
+    width: 50rem;
+    min-height:300px ;
+    background-color: #00AAFF;
+    opacity: 70%;
+    border-radius: 40px;
+    display: inline-block;
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.secondWin221 {
+    font-size: 2rem ;
+    padding: 1rem 0 0 1rem;
+}
+.slide {
+    box-sizing: border-box;
+    background: #6e5050;
+    text-align: center;
+    display: none;
+    border-radius: 40px;
+}
+.active {
+    display: block;
+    background-size: contain;
+}
+.prev {
+    height: 3rem;
+    width: 3rem;
+    background-color: #00AAFF;
+    border-radius: 80px;
+    border: none;
+    rotate: 270deg;
+    color: #fff;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.next {
+    height: 3rem;
+    width: 3rem;
+    background-color: #00AAFF;
+    border-radius: 80px;
+    border: none;
+    rotate: 90deg;
+    color: #fff;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.image2 {
+    width: 49rem;
+    height: 32rem;
+}
+.threeWin {
+    height: 35rem;
+    color: #00AAFF;
+}
+.threeWin1 {
+    font-size: 6rem;
+    text-align: center;
+}
+.threeWin2 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+.fourWin {
+    height: 70rem;
+    background-color: #00AAFF;
+}
+.fourWin1 {
+    font-size: 4rem;
+    text-align: center;
+}
+.fourWin1 b {
+    font-size: 6rem;
+}
+.fourWin2 {
+    display: flex;
+    padding: 5rem 30rem;
+    flex-direction: column;
+    align-items: center;
+}
+.fourWin21 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.fourWin211 {
+    width: 20rem;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding:0 0 0 1rem ;
+    border: 0;
+    font-size: 2rem;
+    color: #6e5050;
+}
+.fourWin211:hover {
+    border: 0;
+}
+.fourWin211:active {
+    border: 0;
+    outline: none;
+    color: black;
+}
+.fourWin211:focus {
+    outline: none;
+    color: black;
+}
+.fourWin22 {
+    width: 25rem;
+    height: 70px;
+    line-height: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    border: 0;
+    font-size: 3rem;
+    transition: 1s;
+}
+.fourWin22:hover {
+    background-color: #00AAFF;
+    color: #fff;
+    transition: 1s;
+}
+.fiveWin {
+    height: 60rem;
+    background-color: #fff;
+}
+.fivetWin1 {
+    height: 100px;
+    background-color: #00AAFF;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 100px;
+}
+.fivetWin2 {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+.fivetWin21 {
+    width: 40rem;
+    height: 20rem;
+    background-color: #00AAFF;
+    border-radius: 25px;
+}
+.fivetWin211 {
+    margin: 1rem 0 0 1rem;
+    width: 15rem;
+    height: 18rem;
+    display: inline-flex;
+    flex-direction: column;
+}
+.fivetWin2111 {
+    width: 100%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 25px;
+    background-image: url(IMG/729aef0b3ffbad76ae9fe494c7afd6a5.jpg);
+    background-size: cover;
+}
+.fivetWin2112 {
+    width: 100%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 25px;
+    background-image: url(IMG/i\ \(7\).webp);
+    background-size: cover;
+}
+.fivetWin2113 {
+    width: 100%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 25px;
+    background-image: url(IMG/i\ \(6\).webp);
+    background-size: cover;
+}
+.fivetWin2114 {
+    width: 100%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 25px;
+    background-image: url(IMG/i\ \(5\).webp);
+    background-size: cover;
+}
+.fivetWin21112 {
+    font-size: 2.5rem;
+    color: gold;
+    text-align: center;
+}
+.fivetWin212 {
+    width: 22rem;
+    display: inline;
+    float: right;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+.footer {
+    height: 20rem;
+    background-color: #00AAFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.footer1 {
+    padding: 0 0 2rem 2rem;
+}
+.footer2 {
+    padding: 2rem 2rem;
+    float: right;
+}
+.footer21 {
+    font-size: 2.5rem;
+}
